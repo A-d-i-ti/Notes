@@ -54,5 +54,10 @@ An FPGA is an IC (Integrated Circuit) programmed for performing customized opera
 2. **Cryptography** - the process of hiding or coding information so that only the person a message was intended for can read it. 2types -- classical and Post Quantum 
 3. **Socket** - IP (layer 3)+PORT NUMBER (Layer 4)
 4.**PORT NUMBER**- used to access particular protocol .eg: http- 80 ,https-443 ,ftp :20 or 21,telnet -23 ,SSH(secure shell) -22 , SMTP -25
-5. Every program in the main memory is calleda PROCCESS .
-6. 
+5. Every program in the main memory is calleda **PROCCESS**.
+6. **HTTPS**- S stands for SSL i.e.**secure socket(ip+port no) layer** is a certificate (X.509) provided by a certified Authority eg.Godaddy
+7. **FCFS**-First come first serve
+8. **ROUND ROBIN**- algorithm that works on FCFS .runs 2-3 process together ,equal time to all process --> called **FAIR ALGORITHM**
+9. **PING** -hitting a website to check the internet eg: ping 4.2.2.2 (to check internet)
+                                                         ping 8.8.8.8 (google server ping)
+10.

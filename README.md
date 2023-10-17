@@ -32,3 +32,27 @@ A processor’s design determines how many instructions it can do and how fast a
 - L2 :MAC Address 
 - L1 :0 and 1 
 - **L7+L6+L5 ---> TCP/IP**
+-**IP ADDRESS**- THREE MAIN TYPES :
+- PRIVATE IP - majorly LAN (10.____ , 172.16._____ , 192.68.____)
+- PUBLIC IP - can be accessed by anyone on the internet
+- LOCAL IP - local host that is our own system (127.0.____)
+-**COMMUNICATION** : wired(optical fiber,) and wireless (wifi ,EMWaves )
+### STORAGE :
+1.KERNAL SPACE and User space :
+![kernal and user space ](https://qph.cf2.quoracdn.net/main-qimg-150cb90563a482ea7d2198964beee8fb-lq)
++ C,C++ ,RUST --->programing languages for writing kernal space :
+- BARE METAL = FRESH SERVER 
+### HYPERVISOR :
+A hypervisor, also known as a virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs).
+A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing. 
+- 2 main hypervisor ----> “Type 1” eg:kvm (or “bare metal”) and “Type 2” eg:vmware workstation, (or “hosted”).
+### FPGA(Field Programmable Gate Array.)
+An FPGA is an IC (Integrated Circuit) programmed for performing customized operations for a specified application.
+**silicon chip** tiwan is the largest producer.
+## SOME KEYWORDS :
+1. **Computer simulation** -the use of a computer to represent the dynamic responses of one system by the behavior of another system modeled after it.
+2. **Cryptography** - the process of hiding or coding information so that only the person a message was intended for can read it. 2types -- classical and Post Quantum 
+3. **Socket** - IP (layer 3)+PORT NUMBER (Layer 4)
+4.**PORT NUMBER**- used to access particular protocol .eg: http- 80 ,https-443 ,ftp :20 or 21,telnet -23 ,SSH(secure shell) -22 , SMTP -25
+5. Every program in the main memory is calleda PROCCESS .
+6. 

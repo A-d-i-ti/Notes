@@ -29,7 +29,7 @@ A processor’s design determines how many instructions it can do and how fast a
 - L5: Cryptography
 - L4 :Port number(16 bits) ,Transport layer security(TLS)tunnel used for VPN(Virtual Private Network)
 - L3 :IP address (32 bits)
-- L2 :MAC Address 
+- L2 :MAC Address /internet
 - L1 :0 and 1 
 - **L7+L6+L5 ---> TCP/IP**
 -**IP ADDRESS**- THREE MAIN TYPES :
@@ -60,4 +60,10 @@ An FPGA is an IC (Integrated Circuit) programmed for performing customized opera
 8. **ROUND ROBIN**- algorithm that works on FCFS .runs 2-3 process together ,equal time to all process --> called **FAIR ALGORITHM**
 9. **PING** -hitting a website to check the internet eg: ping 4.2.2.2 (to check internet)
                                                          ping 8.8.8.8 (google server ping)
-10.
+10.**APIPA stands for Automatic Private IP Addressing-** It is a feature or characteristic in operating systems (eg. Windows) which enables computers to self-configure an IP address and subnet mask automatically when their **DHCP**(Dynamic Host Configuration Protocol) server isn't reachable
+11. **NAT (network address translation)**-translates Private IP to PUBLIC IP and vice versa .
+12. **Switch**- layer-2 of OSI ,a device in a computer network that connects other devices together.
+13. **Router**- layer-3 of OSI ,a device that connects two or more packet-switched networks or subnetworks.
+14. **SERVER**-  a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network.eg.Apache
+15. **PROXY SERVER**- a system or router that provides a gateway between users and the internet. EG.Apache,nginx
+16. 

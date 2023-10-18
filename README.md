@@ -50,6 +50,23 @@ A hypervisor allows one host computer to support multiple guest VMs by virtually
 ### FPGA(Field Programmable Gate Array.)
 An FPGA is an IC (Integrated Circuit) programmed for performing customized operations for a specified application.
 **silicon chip** tiwan is the largest producer.
+### CNI (CONTAINER NETWork interface):
+CNI is a Cloud Native Computing Foundation project, consists of a specification and libraries for writing plugins to configure network interfaces in Linux containers, along with a number of plugins.
+-plug-in is a piece of software that adds new features or extends functionality on an existing application.
+Network models in cni :
+- Encapsulated Network :
+  ![ESY EXPLAINATION ](https://ranchermanager.docs.rancher.com/assets/images/encapsulated-network-0c75db46568d5b2636dad4a8c28d3cc4.png)
+  CNI network providers using this network modEL - Flannel, Canal, Weave, and Cilium.
+  + FLANNEL-Flannel is a Container Network Interface (CNI) plug-in that you can use to create a virtual network for containers based on Virtual Private Cloud (VPC)
+- Unencapsulated Network:
+  ![LIST ](https://ranchermanager.docs.rancher.com/assets/images/unencapsulated-network-b87922f280aa17322e6485b81855dd4a.png)
+  **ETCD-**is an open source, distributed, consistent key-value store for shared configuration, service discovery, and scheduler coordination of distributed systems or clusters of machines
+  standard system for container orchestration.
+  CNI network providers using this network model include Calico and Cilium.
+   + **Calico** uses a pure, unencapsulated IP network fabric and policy engine to provide networking for your Kubernetes workloads.
+      Workloads are able to communicate over both cloud infrastructure and on-prem using BGP(Border Gateway Protocol ).
+**CNI Providers :**
+Canal is a CNI network provider that gives you the best of Flannel and Calico. It allows users to easily deploy Calico and Flannel networking together as a unified networking solution
 ## SOME KEYWORDS :
 1. **Computer simulation** -the use of a computer to represent the dynamic responses of one system by the behavior of another system modeled after it.
 2. **Cryptography** - the process of hiding or coding information so that only the person a message was intended for can read it. 2types -- classical and Post Quantum 
@@ -81,4 +98,17 @@ An FPGA is an IC (Integrated Circuit) programmed for performing customized opera
 25. WEB 3.0- DECENTRALISATION of information ,used case -identity authentication
 26. **LLM model**- A large language model (LLM) is a deep learning algorithm that can perform a variety of natural language processing (NLP) tasks. eg.chatgpt
 27. -LLM uses vector database .
-28. 
+28. **Cloud-native development** is just that—an approach to building and updating apps quickly, while improving quality and reducing risk
+29. **Border Gateway Protocol (BGP)** refers to a gateway protocol that enables the internet to exchange routing information between autonomous systems (AS)
+30. Ingress/Egress Policies: This feature allows you to manage routing control for both Kubernetes and non-Kubernetes communications.
+31. Infrastructure as code (IaC) - uses DevOps methodology and versioning with a descriptive model to define and deploy infrastructure, such as networks, virtual machines, load balancers, and connection topologies.
+32. DEVOPS-DevOps is a combination of software development (dev) and operations (ops)
+33. KUBERNETICS (K8S) - container orchestration technology,
+34. POD - Containers are called PODs in k8s
+35. RANCHER - allows users to manage multiple Kubernetes' clusters more efficiently.
+36. Terraform - is an IAC tool, used primarily by DevOps teams to automate various infrastructure tasks.
+37.** Hashing **- technique or process of mapping keys, and values into the hash table by using a hash function.
+38. MERN - stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. MongoDB — document database. Express(.js) — Node.js web framework. React(.js) — a client-side JavaScript framework.
+39. BLOCKCHain : stores the transactions
+40. blockchain uses Datatbases .
+41. **Homomorphic encryption** is a form of encryption that allows computations to be performed on encrypted data without first having to decrypt it. anonimity and confidentiality .

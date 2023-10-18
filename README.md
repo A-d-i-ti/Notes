@@ -40,6 +40,7 @@ A processor’s design determines how many instructions it can do and how fast a
 ### STORAGE :
 1.KERNAL SPACE and User space :
 ![kernal and user space ](https://qph.cf2.quoracdn.net/main-qimg-150cb90563a482ea7d2198964beee8fb-lq)
+
 + C,C++ ,RUST --->programing languages for writing kernal space :
 - BARE METAL = FRESH SERVER 
 ### HYPERVISOR :
@@ -65,5 +66,19 @@ An FPGA is an IC (Integrated Circuit) programmed for performing customized opera
 12. **Switch**- layer-2 of OSI ,a device in a computer network that connects other devices together.
 13. **Router**- layer-3 of OSI ,a device that connects two or more packet-switched networks or subnetworks.
 14. **SERVER**-  a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network.eg.Apache
-15. **PROXY SERVER**- a system or router that provides a gateway between users and the internet. EG.Apache,nginx
-16. 
+15. **PROXY SERVER**- retrives data on the internet on behalf of a user
+     -hides your public IP address . EG.Apache,nginx
+16. **system design** : the process of defining the architecture, interfaces, and data for a system that satisfies specific requirements.
+    ![design](https://media.geeksforgeeks.org/wp-content/uploads/20221117170254/OBJECTIVESOFSYSTEMDESIGN.png)
+17. **HUGE PAGES**-Memory is managed in blocks known as pages.CPUs have a built-in memory management unit that contains a list of these pages, with each page referenced through a page table entry.
+18. **CEPF**-Ceph is an open source storage platform that is designed to allow object, block, and file storage from a single system.
+19. **API -** application programming interface — a software intermediary that allows two applications to talk to each other.
+20. **REST API **- A REST API is an API that conforms to the design principles of the REST, or representational state transfer architectural style.
+21. **BROWN FIELD**-(monolithic)Brownfield software development refers to the development and deployment of a new software system in the presence of existing or legacy software systems.
+22. **Green field**-(microservices )developing a system for a totally new environment, without concern for integrating with other systems, especially not legacy systems.
+23. **HA**- High availability
+24. **SSO**-CONCEPT OF WEB 2.0 ,**single sign on** with only gmail login into youtube ,google
+25. WEB 3.0- DECENTRALISATION of information ,used case -identity authentication
+26. **LLM model**- A large language model (LLM) is a deep learning algorithm that can perform a variety of natural language processing (NLP) tasks. eg.chatgpt
+27. -LLM uses vector database .
+28. 

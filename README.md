@@ -5,8 +5,8 @@
 3.Networking 
 ### COMPUTATION :
 Central Proccessing Unit (CPU) is responsible for computation.
+GPU,TPU
 It works on ISA (Instruction Set Architecture) .
-+ ISA : A processor’s design determines how many instructions it can do and how fast and efficiently it can do them. 
 - CISC (Complex Instruction Set Computer")
 - RISC(Reduced Instruction Set Computer),
 - RISC-V(open source ), ARM
@@ -24,10 +24,7 @@ It works on ISA (Instruction Set Architecture) .
 - VON NEUMMAN
 - HARVARD ARCHITECTURE
 ![difference bwt the above](https://fabacademy.org/2020/labs/vigyanashram/students/snehal-gawali/assignment8/images/3.jpg)
-### HYPERVISOR :
-A hypervisor, also known as a virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs).
-A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing. 
-- 2 main hypervisor ----> “Type 1” eg:kvm (or “bare metal”) and “Type 2” eg:vmware workstation, (or “hosted”).
+- HYPERVISOR :
 - BARE METAL--> HYPERVISOR TYE-1 (KVM)--> vm --> application
 - bare metal--> o.s --> hypervisor type-2 (vmware workstation)--> vm -->application
 - CONTAINER- DOCKER 
@@ -61,6 +58,11 @@ A hypervisor allows one host computer to support multiple guest VMs by virtually
 - L1 :0 and 1 
 - **L7+L6+L5 ---> TCP/IP**
 - **PORT NUMBER**- used to access particular protocol .eg: http- 80 ,https-443 ,ftp :20 or 21,telnet -23 ,SSH(secure shell) -22 , SMTP -25
+- LOAD BALANCER
+-NIC
+- ROUTE-53
+- DNS
+- ETHERNET
 -**IP ADDRESS**- THREE MAIN TYPES :
 - PRIVATE IP - majorly LAN (10.____ , 172.16._____ , 192.68.____)
 - PUBLIC IP - can be accessed by anyone on the internet
@@ -69,13 +71,11 @@ A hypervisor allows one host computer to support multiple guest VMs by virtually
 -  **APIPA stands for Automatic Private IP Addressing-**
 -  **DHCP**(Dynamic Host Configuration Protocol)
 - Hashing - technique or process of mapping keys, and values into the hash table by using a hash function.
+- GDPR
 -  ### CNI (CONTAINER NETWork interface):
-CNI is a Cloud Native Computing Foundation project, consists of a specification and libraries for writing plugins to configure network interfaces in Linux containers, along with a number of plugins.
 -plug-in is a piece of software that adds new features or extends functionality on an existing application.
 Network models in cni :
 - Encapsulated Network :
-  ![ESY EXPLAINATION ](https://ranchermanager.docs.rancher.com/assets/images/encapsulated-network-0c75db46568d5b2636dad4a8c28d3cc4.png)
-  CNI network providers using this network modEL - Flannel, Canal, Weave, and Cilium.
   + FLANNEL-Flannel is a Container Network Interface (CNI) plug-in that you can use to create a virtual network for containers based on Virtual Private Cloud (VPC)
   + CNI network providers using this network model include Calico and Cilium.
    + **Calico** uses a pure, unencapsulated IP network fabric and policy engine to provide networking for your Kubernetes workloads.
@@ -97,6 +97,9 @@ Canal is a CNI network provider that gives you the best of Flannel and Calico. I
 + C,C++ ,RUST --->programing languages for writing kernal space :
 - BARE METAL = FRESH SERVER
 -  **CEPF**-Ceph is an open source storage platform that is designed to allow object, block, and file storage from a single system.
+-  OBJECT STORAGE(S3)
+-  BLOCK STORAGE (EBS)
+-  
 
 
 

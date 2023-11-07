@@ -3,7 +3,8 @@
 1.Computation 
 2.Storage
 3.Networking 
-### COMPUTATION :
+
+## COMPUTATION :
 Central Proccessing Unit (CPU) 
 GPU,TPU
 - ISA (Instruction Set Architecture) .
@@ -14,14 +15,7 @@ GPU,TPU
 - RISC processors based ARM (ISA) - APPLE
 -  **PROXY SERVER**- retrives data on the internet on behalf of a user
      -hides your public IP address . EG.Apache,nginx
-   
 
--
--
-### some computer system architecture :
-- VON NEUMMAN
-- HARVARD ARCHITECTURE
-![difference bwt the above](https://fabacademy.org/2020/labs/vigyanashram/students/snehal-gawali/assignment8/images/3.jpg)
 - HYPERVISOR :
 - BARE METAL--> HYPERVISOR TYE-1 (KVM)--> vm --> application
 - bare metal--> o.s --> hypervisor type-2 (vmware workstation)--> vm -->application
@@ -32,12 +26,11 @@ GPU,TPU
 - MESOS
 - EKS(amazon elastic k8s service.)
 - ECS (ELASTIC CONTAINER SERVICE )
-- 
-- 
+  
 - ### FPGA(Field Programmable Gate Array.)
 - An FPGA is an IC (Integrated Circuit) programmed for performing customized operations for a specified application.
 **silicon chip** tiwan is the largest producer. 
-- 
+  
 ### NUMA :Non-uniform memory access (NUMA)
 - is a computer memory design used in multiprocessing, where the memory access time depends on the memory location relative to the processor.
  Under NUMA, a processor can access its own local memory faster than non-local memory (memory local to another processor or memory shared between processors).
@@ -60,9 +53,9 @@ GPU,TPU
 - L3 :IP address (32 bits)
 - L2 :MAC Address /internet
 - L1 :0 and 1
-- 
+  
 - **L7+L6+L5 ---> TCP/IP**
-- 
+  
 - **PORT NUMBER**- used to access particular protocol .eg: http- 80 ,https-443 ,ftp :20 or 21,telnet -23 ,SSH(secure shell) -22 , SMTP -25
 - -**IP ADDRESS**- THREE MAIN TYPES :
 - PRIVATE IP - majorly LAN (10.____ , 172.16._____ , 192.68.____)
@@ -76,9 +69,9 @@ GPU,TPU
 - TAP(TEMPORARY APPLICANT POOL)
 - ROUTE-53
 - DNS
--  **NAT (network address translation)**-translates Private IP to PUBLIC IP and vice versa .
--  **APIPA stands for Automatic Private IP Addressing-**
--  **DHCP**(Dynamic Host Configuration Protocol)- DYNAMICALLY assigns an IP to any node.
+- **NAT (network address translation)**-translates Private IP to PUBLIC IP and vice versa .
+- **APIPA stands for Automatic Private IP Addressing-**
+- **DHCP**(Dynamic Host Configuration Protocol)- DYNAMICALLY assigns an IP to any node.
 - Hashing - technique or process of mapping keys, and values into the hash table by using a hash function.
 - CDN -CONTENT DELIVERY NETWORK 
 - CNI (CONTAINER NETWork interface):
@@ -87,24 +80,25 @@ Network models in cni :
 - Encapsulated Network :
   + FLANNEL-Flannel is a Container Network Interface (CNI) plug-in that you can use to create a virtual network for containers based on Virtual Private Cloud (VPC)
   + CNI network providers using this network model include Calico and Cilium.
-   + **Calico** uses a pure, unencapsulated IP network fabric and policy engine to provide networking for your Kubernetes workloads.
-      Workloads are able to communicate over both cloud infrastructure and on-prem using BGP(Border Gateway Protocol ).
+  + **Calico** uses a pure, unencapsulated IP network fabric and policy engine to provide networking for your Kubernetes workloads.
+  + Workloads are able to communicate over both cloud infrastructure and on-prem using BGP(Border Gateway Protocol ).
 **CNI Providers :**
-Canal is a CNI network provider that gives you the best of Flannel and Calico. It allows users to easily deploy Calico and Flannel networking together as a unified networking solution
+ Canal is a CNI network provider that gives you the best of Flannel and Calico. It allows users to easily deploy Calico and Flannel networking together as a unified networking solution
 - Unencapsulated Network
 - API
 -  **REST API** - A REST API is an API that conforms to the design principles of the REST, or representational state transfer architectural style.
 -  OPEN VIRTUAL SWITCH
 -  WEB 3.0- DECENTRALISATION of information ,used case -identity authentication
 -  **SSO**-CONCEPT OF WEB 2.0 ,**single sign on** with only gmail login into youtube ,google
--  
 
 ## STORAGE :
+
 1.KERNAL SPACE and User space :
+
 ![kernal and user space ](https://qph.cf2.quoracdn.net/main-qimg-150cb90563a482ea7d2198964beee8fb-lq)
 
 + C,C++ ,RUST --->programing languages for writing kernal space
-+ 
+ 
 - BARE METAL = FRESH SERVER
 -  **CEPF**-Ceph is an open source storage platform that is designed to allow object, block, and file storage from a single system.
 -  OBJECT STORAGE(S3)
@@ -116,7 +110,8 @@ Canal is a CNI network provider that gives you the best of Flannel and Calico. I
 -  SSD (SOLID STATE DRIVE )-NEWEST GEN OF STORAGE DEVICE 
 -  HDD(HARD DISC DRIVE )
   
--  SHARDING - dividing a larger part into smaller parts In DBMS 
+-  SHARDING - dividing a larger part into smaller parts In DBMS
+  
   ![LIST ](https://ranchermanager.docs.rancher.com/assets/images/unencapsulated-network-b87922f280aa17322e6485b81855dd4a.png)
 - **ETCD-**etcd stores data in a multiversion persistent key-value store
 
@@ -137,6 +132,10 @@ Canal is a CNI network provider that gives you the best of Flannel and Calico. I
 - GDPR
 -  
 ## Architecture :
+### some computer system architecture :
+- VON NEUMMAN
+- HARVARD ARCHITECTURE
+![difference bwt the above](https://fabacademy.org/2020/labs/vigyanashram/students/snehal-gawali/assignment8/images/3.jpg)
 1. **Computer simulation** -the use of a computer to represent the dynamic responses of one system by the behavior of another system modeled after it.
 2. **FCFS**-First come first serve
 3. **ROUND ROBIN**- algorithm that works on FCFS .runs 2-3 process together ,equal time to all process --> called **FAIR ALGORITHM** LOAD BALANCER
@@ -148,7 +147,7 @@ Canal is a CNI network provider that gives you the best of Flannel and Calico. I
 - SQL
 - NO SQL
 - CAP THEOREM
-- 
+  
 ## PROPERTIES :
 - HA(HIGH AVAILABILITY)
 - AUTO SCALING

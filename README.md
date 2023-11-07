@@ -31,6 +31,10 @@ It works on ISA (Instruction Set Architecture) .
 - KUBERNETICS (K8S) - container orchestration technology,
 - PODS- containers in k8s
 - RANCHER - allows users to manage multiple Kubernetes' clusters more efficiently.
+- TUN
+- TAP
+- VPP
+- 
 - ### FPGA(Field Programmable Gate Array.)
 - An FPGA is an IC (Integrated Circuit) programmed for performing customized operations for a specified application.
 **silicon chip** tiwan is the largest producer. 
